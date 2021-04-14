@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .js {
+        font-weight: bold;
+        color: red;
+      }
+      #first {
+        color: green;
+      }
+      span {
+        color: blue;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+  </head>
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+    <input
+      style="background-color: rosybrown; color: purple"
+      type="button"
+      value="night"
+      onclick="
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+    "
+    />
+    <input
+      style="background-color: rosybrown; color: white"
+      type="button"
+      value="day"
+      onclick="
+    document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black';
+    "
+    />
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="1.html">JavaScript</a></li>
+    </ol>
+    <h2>JavaScript</h2>
+    <p>
+      <span id="first" class="js">JavaScript</span> (/ˈdʒɑːvəˌskrɪpt/),[8] often
+      abbreviated as JS, <span>is</span> a programming language that conforms to
+      the ECMAScript specification.[9] <span class="js">JavaScript</span>
+      <span>is</span> high-level, often just-in-time compiled,
+      <span>and</span> multi-paradigm. It has curly-bracket syntax, dynamic
+      typing, prototype-based object-orientation, <span>and</span> first-class
+      functions.
+    </p>
+  </body>
+</html>
