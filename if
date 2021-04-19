@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Exercise1</title>
+  </head>
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+    <input
+      id="night_day"
+      type="button"
+      value="night"
+      onclick="
+    if(document.querySelector('#night_day').value === 'night'){
+      document.querySelector('body').style.backgroundColor='black';
+      document.querySelector('body').style.color='white';
+      document.querySelector('#night_day').style.border='5px solid';
+      document.querySelector('#night_day').style.borderColor='purple';
+      document.querySelector('#night_day').value = 'day';
+    } else {
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('body').style.color='black';
+      document.querySelector('#night_day').style.border='3px solid';
+      document.querySelector('#night_day').style.borderColor='coral';
+      document.querySelector('#night_day').value = 'night';
+    }
+    "
+    />
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="1.html">JavaScript</a></li>
+    </ol>
+    <h2>JavaScript</h2>
+    <p>
+      JavaScript (/ˈdʒɑːvəˌskrɪpt/),[8] often abbreviated as JS, is a
+      programming language that conforms to the ECMAScript specification.[9]
+      JavaScript is high-level, often just-in-time compiled, and multi-paradigm.
+      It has curly-bracket syntax, dynamic typing, prototype-based
+      object-orientation, and first-class functions.
+    </p>
+  </body>
+</html>
